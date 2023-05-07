@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wisnu Bayu</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -68,54 +69,61 @@
     </section>
 
     <section class="project">
-      <h2 class="project__title">Personal Project</h2>
+      <h2>Personal Project</h2>
 
-      <table class="project__table">
-        <tr>
-          <th>
-            <a href="https://wishba.github.io/advice-generator-app-main/" target="_blank" rel="noopener noreferrer">
-              Advice Generator App </a>
-          </th>
-          <th>
-            <a href="https://wishba.github.io/intro-section-with-dropdown-navigation/" target="_blank"
-              rel="noopener noreferrer"> Dropdown Navigation Page</a>
-          </th>
-          <th>
-            <a href="https://todo-serverless.netlify.app/" target="_blank" rel="noopener noreferrer">Serverless Todo
-              App</a>
-          </th>
-          <th>
-            <a href="https://wishba.itch.io/find-the-treasure" target="_blank" rel="noopener noreferrer">React Web
-              Game</a>
-          </th>
-        </tr>
+      <div class="project__button">
+        <button id="scroll-left">&larr;</button>
+        <button id="scroll-right">&rarr;</button>
+      </div>
 
-        <tr>
-          <td>
-            <a href="https://wishba.github.io/advice-generator-app-main/" target="_blank" rel="noopener noreferrer">
-              <img src="Screenshot 2023-04-26 at 19-49-49 Frontend Mentor Advice generator app.png"
-                alt="advice generator">
-            </a>
-          </td>
-          <td>
-            <a href="https://wishba.github.io/intro-section-with-dropdown-navigation/" target="_blank"
-              rel="noopener noreferrer">
-              <img src="Screenshot 2023-04-26 at 19-51-24 Frontend Mentor Intro section with dropdown navigation.png"
-                alt="intro section">
-            </a>
-          </td>
-          <td>
-            <a href="https://todo-serverless.netlify.app/" target="_blank" rel="noopener noreferrer">
-              <img src="Screenshot 2023-04-26 at 19-51-54 React App.png" alt="todo app">
-            </a>
-          </td>
-          <td>
-            <a href="https://wishba.itch.io/find-the-treasure" target="_blank" rel="noopener noreferrer">
-              <img src="Screenshot 2023-04-26 at 19-52-56 find the treasure by wishba.png" alt="web game">
-            </a>
-          </td>
-        </tr>
-      </table>
+      <div id="project-container" class="project__table-container">
+        <table class="project__table">
+          <tr>
+            <th>
+              <a href="https://wishba.github.io/advice-generator-app-main/" target="_blank" rel="noopener noreferrer">
+                Advice Generator App </a>
+            </th>
+            <th>
+              <a href="https://wishba.github.io/intro-section-with-dropdown-navigation/" target="_blank"
+                rel="noopener noreferrer"> Dropdown Navigation Page</a>
+            </th>
+            <th>
+              <a href="https://todo-serverless.netlify.app/" target="_blank" rel="noopener noreferrer">Serverless Todo
+                App</a>
+            </th>
+            <th>
+              <a href="https://wishba.itch.io/find-the-treasure" target="_blank" rel="noopener noreferrer">React Web
+                Game</a>
+            </th>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="https://wishba.github.io/advice-generator-app-main/" target="_blank" rel="noopener noreferrer">
+                <img src="Screenshot 2023-04-26 at 19-49-49 Frontend Mentor Advice generator app.png"
+                  alt="advice generator">
+              </a>
+            </td>
+            <td>
+              <a href="https://wishba.github.io/intro-section-with-dropdown-navigation/" target="_blank"
+                rel="noopener noreferrer">
+                <img src="Screenshot 2023-04-26 at 19-51-24 Frontend Mentor Intro section with dropdown navigation.png"
+                  alt="intro section">
+              </a>
+            </td>
+            <td>
+              <a href="https://todo-serverless.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <img src="Screenshot 2023-04-26 at 19-51-54 React App.png" alt="todo app">
+              </a>
+            </td>
+            <td>
+              <a href="https://wishba.itch.io/find-the-treasure" target="_blank" rel="noopener noreferrer">
+                <img src="Screenshot 2023-04-26 at 19-52-56 find the treasure by wishba.png" alt="web game">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
     </section>
   </main>
 </body>
