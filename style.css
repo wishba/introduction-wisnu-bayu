@@ -1,0 +1,48 @@
+.main {
+  max-width: 62rem;
+  margin: auto;
+}
+
+.intro__list-container {
+  vertical-align: baseline;
+}
+
+.intro__list {
+  text-align: center;
+  padding: 0;
+}
+
+.intro__list>li {
+  list-style: none;
+}
+
+.intro__image {
+  max-width: 12rem;
+}
+
+.intro__copy {
+  width: 30rem;
+  padding-left: 3rem;
+  padding-left: clamp(1rem, 5vw, 3rem);
+}
+
+.intro__title {
+  max-width: 16ch;
+}
+
+.project {
+  overflow: auto;
+}
+
+.project__title {
+  position: absolute;
+}
+
+.project img {
+  width: 15rem;
+}
+
+.project__table {
+  border: 1px solid black;
+  margin: 4rem auto 0;
+}
