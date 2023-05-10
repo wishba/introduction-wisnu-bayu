@@ -34,10 +34,6 @@
   position: relative;
 }
 
-.project img {
-  width: 15rem;
-}
-
 .project__left {
   position: absolute;
   top: 50%;
@@ -58,6 +54,10 @@
 .project__table {
   border: 1px solid black;
   margin: auto;
+}
+
+.project__table img {
+  width: 15rem;
 }
 
 @media (min-width:1010px) {
